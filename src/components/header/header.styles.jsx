@@ -111,9 +111,14 @@ export const HeadButtonLink = styled(LinkRouter)`
   transition: all 0.2s ease-in-out;
   text-decoration: none;
 
-  &:hover {
-    transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: #0f171f;
+  // &:hover {
+  //   transition: all 0.2s ease-in-out;
+  //   background: #fff;
+  //   color: #0f171f;
+  // }
+  &:active {
+    background-color: #0f171f;
+    // box-shadow: 0 5px #666;
+    transform: translateY(4px);
   }
 `;

@@ -14,13 +14,13 @@ import {
   HeadButtonLink,
 } from "./header.styles";
 
-const Header = () => {
+const Header = ({ toggle }) => {
   return (
     <Nav>
       <HeaderContainer>
         <HeaderLogo to="/">ANTIQUERA</HeaderLogo>
 
-        <ResponsiveIcon>
+        <ResponsiveIcon onClick={toggle}>
           <FaBars />
         </ResponsiveIcon>
 
@@ -42,7 +42,7 @@ const Header = () => {
           </HeadItem>
 
           <HeadButton>
-            <HeadButtonLink to="contact">Contactanos</HeadButtonLink>
+            <HeadButtonLink to="/contact">Contactanos</HeadButtonLink>
           </HeadButton>
         </HeadMenu>
       </HeaderContainer>
