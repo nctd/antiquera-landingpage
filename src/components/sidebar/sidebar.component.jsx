@@ -19,10 +19,18 @@ function Sidebar({ isOpen, toggle }) {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="inicio"> Inicio</SidebarLink>
-          <SidebarLink to="quienes"> Quienes somos </SidebarLink>
-          <SidebarLink to="equipo"> Nuestro equipo </SidebarLink>
-          <SidebarLink to="servicios"> Servicios </SidebarLink>
+          <SidebarLink to="inicio" onClick={toggle}>
+            Inicio
+          </SidebarLink>
+          <SidebarLink to="quienes" onClick={toggle}>
+            Quienes somos
+          </SidebarLink>
+          <SidebarLink to="equipo" onClick={toggle}>
+            Nuestro equipo
+          </SidebarLink>
+          <SidebarLink to="servicios" onClick={toggle}>
+            Servicios
+          </SidebarLink>
         </SidebarMenu>
         <SidebarButton>
           <SidebarButtonLink to="/contact"> Contactanos </SidebarButtonLink>

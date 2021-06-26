@@ -2,6 +2,8 @@ import styled from "styled-components";
 import { Link as LinkRouter } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
 
+import { MdArrowForward } from "react-icons/md";
+
 export const Nav = styled.nav`
   background: #ffffff 0% 0% no-repeat padding-box;
 
@@ -92,7 +94,7 @@ export const HeadLink = styled(LinkScroll)`
 export const HeadButton = styled.nav`
   display: flex;
   align-items: center;
-
+  // flex-direction: column;
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -104,13 +106,13 @@ export const HeadButtonLink = styled(LinkRouter)`
   white-space: nowrap;
   padding: 10px 22px;
   color: #fff;
+  font-weight: bold;
   font-size: 16px;
   outline: none;
   border: none;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-
   // &:hover {
   //   transition: all 0.2s ease-in-out;
   //   background: #fff;
@@ -121,4 +123,9 @@ export const HeadButtonLink = styled(LinkRouter)`
     // box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+`;
+
+export const ButtonArrow = styled(MdArrowForward)`
+  vertical-align: bottom;
+  font-size: 19px;
 `;
