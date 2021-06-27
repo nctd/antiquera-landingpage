@@ -7,7 +7,7 @@ import { MdArrowForward } from "react-icons/md";
 export const Nav = styled.nav`
   background: #ffffff 0% 0% no-repeat padding-box;
 
-  height: 80px;
+  height: 110px; //esto era 80
   // margin-top: -80px;
   display: flex;
   justify-content: center;
@@ -16,6 +16,7 @@ export const Nav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 10;
+  margin-bottom: 1rem;
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
@@ -43,6 +44,10 @@ export const HeaderLogo = styled(LinkRouter)`
   margin-left: 24px
   font-weight: bold;
   text-decoration: none;
+
+  @media screen and (max-width: 768px) {
+    align-items: left;
+  }
 `;
 
 export const ResponsiveIcon = styled.div`
@@ -51,7 +56,7 @@ export const ResponsiveIcon = styled.div`
   @media screen and (max-width: 768px) {
     display: block;
     position: absolute;
-    top: 0;
+    // top: 0;
     right: 0;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
@@ -128,4 +133,17 @@ export const HeadButtonLink = styled(LinkRouter)`
 export const ButtonArrow = styled(MdArrowForward)`
   vertical-align: bottom;
   font-size: 19px;
+`;
+
+export const HeaderImage = styled.img`
+  width: 100%;
+  height: 135px;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    height: 120px;
+  }
+  @media screen and (max-width: 480px) {
+    width: 90%;
+    height: 120px;
+  }
 `;

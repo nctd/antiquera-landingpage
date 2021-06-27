@@ -1,11 +1,9 @@
 import React from "react";
 
-import Imagen from "../../assets/Image.jpg";
+import Imagen from "../../assets/menu-imagen-1.jpg";
 
 import {
   MenuContainer,
-  MenuBackground,
-  ImageBackground,
   MenuContent,
   MenuTitle,
   MenuSubtitle,

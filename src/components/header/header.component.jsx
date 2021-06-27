@@ -2,12 +2,13 @@ import React from "react";
 
 import { FaBars } from "react-icons/fa";
 
-import Logo from "../../assets/antiquera-logo.jpg";
+import Logo from "../../assets/logoweb.png";
 
 import {
   Nav,
   HeaderContainer,
   HeaderLogo,
+  HeaderImage,
   ResponsiveIcon,
   HeadMenu,
   HeadItem,
@@ -22,7 +23,7 @@ const Header = ({ toggle }) => {
     <Nav>
       <HeaderContainer>
         <HeaderLogo to="/">
-          <img src={Logo} alt="antiquera-logo" />
+          <HeaderImage src={Logo} />
         </HeaderLogo>
 
         <ResponsiveIcon onClick={toggle}>
