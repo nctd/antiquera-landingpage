@@ -2,7 +2,7 @@ import React from "react";
 
 import { FaBars } from "react-icons/fa";
 
-import { ReactComponent as Logo } from "../../assets/crown.svg";
+import Logo from "../../assets/antiquera-logo.jpg";
 
 import {
   Nav,
@@ -22,7 +22,7 @@ const Header = ({ toggle }) => {
     <Nav>
       <HeaderContainer>
         <HeaderLogo to="/">
-          <Logo />
+          <img src={Logo} alt="antiquera-logo" />
         </HeaderLogo>
 
         <ResponsiveIcon onClick={toggle}>

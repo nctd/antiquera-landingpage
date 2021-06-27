@@ -29,7 +29,7 @@ export const HeaderContainer = styled.div`
   z-index: 1;
   width: 80%;
   padding: 0 24px;
-  max-width: 1587px;
+  max-width: 1580px;
   // max-width: 1100px;
 `;
 

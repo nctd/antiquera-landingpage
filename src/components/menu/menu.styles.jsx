@@ -8,9 +8,34 @@ export const MenuContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 800px;
+  height: 600px;
   position: relative;
   z-index: 1;
+
+  @media screen and (max-width: 768px) {
+    height: 500px;
+  }
+`;
+
+export const MenuContent = styled.div`
+  flex: 1;
+  z-index: 3;
+  max-width: 1520px;
+  position: absolute;
+  padding: 8px 24px;
+  display: flex;
+  flex-direction: row;
+  // align-items: center;
+  //
+  // display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  align-items: center;
+  // margin-bottom: 30px;
+  margin-top: 30px;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 export const MenuBackground = styled.div`
@@ -33,43 +58,38 @@ export const ImageBackground = styled.div`
   // background-image: src(${Imagen});
 `;
 
-export const MenuContent = styled.div`
-  flex: 1;
-  z-index: 3;
-  max-width: 1200px;
-  position: absolute;
-  padding: 8px 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-`;
-
 export const MenuTitle = styled.h1`
   color: #262222;
-  font-size: 42px;
-  text-align: center;
+  font-size: 30px;
+  text-align: left;
 
   @media screen and (max-width: 768px) {
     font-size: 20px;
+    padding-top: 40px;
+    text-align: center;
   }
 
   @media screen and (max-width: 480px) {
     font-size: 15px;
+    padding-top: 40px;
+    text-align: center;
   }
 `;
 
 export const MenuSubtitle = styled.p`
   margin-top: 24px;
   color: #262222;
-  font-size: 24px;
-  text-align: center;
-  max-width: 600px;
+  font-size: 20px;
+  text-align: left;
+  // max-width: 600px;
 
   @media screen and (max-width: 768px) {
     font-size: 15px;
+    text-align: center;
   }
   @media screen and (max-width: 480px) {
     font-size: 12px;
+    text-align: center;
   }
 `;
 
@@ -85,3 +105,23 @@ export const SpanColor = styled.span`
 //   margin-left: 8px;
 //   font-size: 20px;
 // `;
+
+export const MenuColumn = styled.div`
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+`;
+
+export const MenuImage = styled.img`
+  box-shadow: 0px 20px 20px #00000029;
+  width: 80%;
+  // object-fit: cover;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+  @media screen and (max-width: 480px) {
+    width: 100%;
+  }
+`;
