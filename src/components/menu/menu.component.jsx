@@ -1,7 +1,5 @@
 import React from "react";
 
-import Imagen from "../../assets/menu-imagen-1.jpg";
-
 import {
   MenuContainer,
   MenuContent,
@@ -12,7 +10,9 @@ import {
   MenuImage,
 } from "./menu.styles";
 
-function Menu() {
+import Imagen from "../../assets/menu-imagen-1.jpg";
+
+const Menu = () => {
   return (
     <MenuContainer>
       <MenuContent>
@@ -36,6 +36,6 @@ function Menu() {
       </MenuContent>
     </MenuContainer>
   );
-}
+};
 
 export default Menu;

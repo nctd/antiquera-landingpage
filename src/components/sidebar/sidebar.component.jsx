@@ -11,7 +11,7 @@ import {
   SidebarButtonLink,
 } from "./sidebar.styles";
 
-function Sidebar({ isOpen, toggle }) {
+const Sidebar = ({ isOpen, toggle }) => {
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
       <Icon onClick={toggle}>
@@ -38,6 +38,6 @@ function Sidebar({ isOpen, toggle }) {
       </SidebarWrapper>
     </SidebarContainer>
   );
-}
+};
 
 export default Sidebar;
