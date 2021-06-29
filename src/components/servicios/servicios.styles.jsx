@@ -10,12 +10,14 @@ export const ServiciosContainer = styled.div`
   background: linear-gradient(to bottom, #fff 50%, #0f171f 50%);
 
   @media screen and (max-width: 768px) {
+    height: 100%;
     // height: 1100px;
     background: #0f171f;
     display: inline-flex;
   }
 
   @media screen and (max-width: 480px) {
+    height: 100%;
     // height: 1300px;
     background: #0f171f;
     display: inline-flex;
@@ -38,7 +40,9 @@ export const ServiciosWrapper = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    grid-template-columns: 1fr;
+    // grid-template-columns: 1fr;
+    grid-template-columns: minmax(100px, max-content);
+
     padding: 0 20px;
     background: #0f171f;
   }

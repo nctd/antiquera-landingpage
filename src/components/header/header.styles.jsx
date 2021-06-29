@@ -17,6 +17,7 @@ export const Nav = styled.nav`
   top: 0;
   z-index: 10;
   margin-bottom: 1rem;
+  left: 0;
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
@@ -33,6 +34,10 @@ export const HeaderContainer = styled.div`
   padding: 0 24px;
   max-width: 1580px;
   // max-width: 1100px;
+
+  @media screen and (max-width: 960px) {
+    display: inline-grid;
+  }
 `;
 
 export const HeaderLogo = styled(LinkRouter)`
@@ -137,7 +142,7 @@ export const ButtonArrow = styled(MdArrowForward)`
 `;
 
 export const HeaderImage = styled.img`
-  width: 100%;
+  // width: 100%;
   height: 135px;
   margin-left: -8px;
   @media screen and (max-width: 768px) {
