@@ -138,12 +138,15 @@ export const ButtonArrow = styled(MdArrowForward)`
 export const HeaderImage = styled.img`
   width: 100%;
   height: 135px;
+  margin-left: -8px;
   @media screen and (max-width: 768px) {
     width: 90%;
-    height: 120px;
+    margin-left: -25px;
+    height: auto;
   }
   @media screen and (max-width: 480px) {
     width: 90%;
-    height: 120px;
+    margin-left: -25px;
+    height: auto;
   }
 `;

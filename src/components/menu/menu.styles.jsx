@@ -37,26 +37,6 @@ export const MenuContent = styled.div`
   }
 `;
 
-// export const MenuBackground = styled.div`
-//   position: absolute;
-//   top: 0;
-//   right: 0;
-//   bottom: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   overflow: hidden;
-// `;
-
-// export const ImageBackground = styled.div`
-//   width: 100%;
-//   height: 100%;
-//   -o-object-fit: cover;
-//   object-fit: cover;
-//   background: #232a34;
-//   // background-image: src(${Imagen});
-// `;
-
 export const MenuTitle = styled.h1`
   color: #262222;
   font-size: 30px;
