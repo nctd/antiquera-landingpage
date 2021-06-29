@@ -52,8 +52,8 @@ const Servicios = () => {
         {/* Juicios arbitrales */}
         <ServiciosCard>
           <CardTitulo>Juicios arbitrales</CardTitulo>
-          <MediaCardTitulo>Juicios arbitrales</MediaCardTitulo>
           <CardIcon src={Card_03} />
+          <MediaCardTitulo>Juicios arbitrales</MediaCardTitulo>
           <CardSubtitulo>
             Asesoría legal en Juicios Arbitrales sobre partición comunidades y
             sociedades.
