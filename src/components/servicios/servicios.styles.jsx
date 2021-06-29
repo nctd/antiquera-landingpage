@@ -12,15 +12,13 @@ export const ServiciosContainer = styled.div`
   @media screen and (max-width: 768px) {
     // height: 1100px;
     background: #0f171f;
-    margin-right: -5px;
-    // background-color: #0f171f;
+    display: inline-flex;
   }
 
   @media screen and (max-width: 480px) {
     // height: 1300px;
     background: #0f171f;
-    margin-right: -5px;
-    // background-color: #0f171f;
+    display: inline-flex;
   }
 `;
 
