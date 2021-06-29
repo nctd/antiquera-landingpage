@@ -11,7 +11,7 @@ export const MenuContainer = styled.div`
   z-index: 1;
 
   @media screen and (max-width: 768px) {
-    height: 500px;
+    // height: 500px;
   }
 `;
 
@@ -34,6 +34,12 @@ export const MenuContent = styled.div`
   @media screen and (max-width: 768px) {
     flex-direction: column;
     margin-top: 80px;
+    padding: 8px 20px;
+  }
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+    margin-top: 80px;
+    padding: 8px 20px;
   }
 `;
 
