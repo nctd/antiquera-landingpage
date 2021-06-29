@@ -7,16 +7,20 @@ export const ServiciosContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  // background: #010606;
   background: linear-gradient(to bottom, #fff 50%, #0f171f 50%);
+
   @media screen and (max-width: 768px) {
     // height: 1100px;
     background: #0f171f;
+    margin-right: -5px;
+    // background-color: #0f171f;
   }
 
   @media screen and (max-width: 480px) {
     // height: 1300px;
     background: #0f171f;
+    margin-right: -5px;
+    // background-color: #0f171f;
   }
 `;
 
