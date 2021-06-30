@@ -28,7 +28,7 @@ const Servicios = () => {
         Reemprendimiento (Ley de quiebras), Derecho <SaltoLinea />
         Corporativo, Civil, Comercial y Minero.
       </ServiciosSubtitulo>
-      {/* <LineaMedia /> */}
+      <LineaMedia />
       <ServiciosWrapper>
         {/* Derecho empresarial */}
         <ServiciosCard>

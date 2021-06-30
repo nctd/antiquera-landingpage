@@ -42,12 +42,12 @@ export const HeaderContainer = styled.div`
 
 export const HeaderLogo = styled(LinkRouter)`
   color: black;
-  justity-self: flex-start;
+  justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-  margin-left: 24px
+  margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
 

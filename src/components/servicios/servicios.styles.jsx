@@ -76,10 +76,12 @@ export const ServiciosSubtitulo = styled.p`
 
   @media screen and (max-width: 768px) {
     color: #fff;
+    padding: 10px;
   }
 
   @media screen and (max-width: 480px) {
     color: #fff;
+    padding: 10px;
   }
 `;
 
@@ -93,7 +95,8 @@ export const ServiciosCard = styled.div`
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
-
+  height: 450px;
+  margin-bottom: 120px;
   &:hover {
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
@@ -103,11 +106,15 @@ export const ServiciosCard = styled.div`
   @media screen and (max-width: 768px) {
     background: none;
     box-shadow: none;
+    margin-bottom: 30px;
+    /* padding: 10px; */
   }
 
   @media screen and (max-width: 480px) {
     background: none;
     box-shadow: none;
+    margin-bottom: 30px;
+    /* padding: 10px; */
   }
 `;
 
@@ -180,12 +187,14 @@ export const LineaMedia = styled.hr`
     width: 85%;
     color: #fff;
     display: flex;
+    margin-bottom: 10px;
   }
 
   @media screen and (max-width: 480px) {
     width: 85%;
     color: #fff;
     display: flex;
+    margin-bottom: 10px;
   }
 `;
 
