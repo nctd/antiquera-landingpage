@@ -5,7 +5,7 @@ import Menu from "../../components/menu/menu.component";
 import Sidebar from "../../components/sidebar/sidebar.component";
 import Servicios from "../../components/servicios/servicios.component";
 import Contacto from "../../components/contacto/contacto.component";
-import Footer from "../../components/footer/footer.component";
+// import Footer from "../../components/footer/footer.component";
 
 const Homepage = () => {
   const [isOpen, setIsOpen] = useState(false);

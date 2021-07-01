@@ -5,11 +5,11 @@ import {
   FooterWrapper,
   FooterColumn,
   FooterLogo,
-  FooterLinkContainer,
-  FooterLinkWrapper,
-  FooterLinkItems,
-  FooterLinkTitle,
-  FooterLink,
+  // FooterLinkContainer,
+  // FooterLinkWrapper,
+  // FooterLinkItems,
+  // FooterLinkTitle,
+  // FooterLink,
 } from "./footer.styles";
 
 import Logo from "../../assets/logoweb.png";
@@ -25,10 +25,7 @@ const Footer = () => {
     </FooterContainer>
   );
 };
-
-export default Footer;
-{
-  /* //   <FooterWrapper>
+/* //   <FooterWrapper>
     //     <img src={Logo} alt="footer-logo" />
     //     <FooterLinkContainer>
     //       <FooterLinkWrapper>
@@ -61,4 +58,4 @@ export default Footer;
     //       </FooterLinkWrapper>
     //     </FooterLinkContainer>
     //   </FooterWrapper> */
-}
+export default Footer;

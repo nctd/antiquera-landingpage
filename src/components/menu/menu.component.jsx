@@ -10,7 +10,7 @@ import {
   MenuImage,
 } from "./menu.styles";
 
-import Imagen from "../../assets/menu-imagen-1.jpg";
+import Imagen from "../../assets/img-menu.jpg";
 
 const Menu = () => {
   return (
