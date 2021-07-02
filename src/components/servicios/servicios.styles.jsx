@@ -54,9 +54,9 @@ export const ServiciosWrapper = styled.div`
 `;
 
 export const ServiciosTitulo = styled.h1`
-  font-size: 2.5rem;
+  font-size: 50px;
   color: #262222;
-  margin-bottom: 64px;
+  margin-bottom: 40px;
 
   @media screen and (max-width: 768px) {
     margin-top: 20px;
@@ -77,16 +77,24 @@ export const ServiciosSubtitulo = styled.p`
   color: #262222;
   text-align: center;
   font-size: 18px;
-  margin-bottom: 64px;
+  margin-bottom: 60px;
 
   @media screen and (max-width: 768px) {
     color: #fff;
     padding: 10px;
+
+    width: 90%;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 30px;
   }
 
   @media screen and (max-width: 480px) {
     color: #fff;
     padding: 10px;
+
+    width: 90%;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 30px;
   }
 `;
 
@@ -144,7 +152,7 @@ export const CardIcon = styled.img`
 
 export const CardTitulo = styled.h2`
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -185,23 +193,23 @@ export const MediaCardTitulo = styled.h2`
   }
 `;
 
-export const LineaMedia = styled.hr`
-  display: none;
+// export const LineaMedia = styled.hr`
+//   display: none;
 
-  @media screen and (max-width: 768px) {
-    width: 85%;
-    color: #fff;
-    display: flex;
-    margin-bottom: 10px;
-  }
+//   @media screen and (max-width: 768px) {
+//     width: 85%;
+//     color: #fff;
+//     display: flex;
+//     margin-bottom: 10px;
+//   }
 
-  @media screen and (max-width: 480px) {
-    width: 85%;
-    color: #fff;
-    display: flex;
-    margin-bottom: 10px;
-  }
-`;
+//   @media screen and (max-width: 480px) {
+//     width: 85%;
+//     color: #fff;
+//     display: flex;
+//     margin-bottom: 10px;
+//   }
+// `;
 
 export const SaltoLinea = styled.br`
   @media screen and (max-width: 768px) {
@@ -211,4 +219,8 @@ export const SaltoLinea = styled.br`
   @media screen and (max-width: 768px) {
     display: none;
   }
+`;
+
+export const SubtitulosContainer = styled.div`
+  height: 50px;
 `;

@@ -5,6 +5,8 @@ import Menu from "../../components/menu/menu.component";
 import Sidebar from "../../components/sidebar/sidebar.component";
 import Servicios from "../../components/servicios/servicios.component";
 import Contacto from "../../components/contacto/contacto.component";
+import AboutUs from "../../components/about-us/about-us.component";
+import Informacion from "../../components/informacion/informacion.component";
 // import Footer from "../../components/footer/footer.component";
 
 const Homepage = () => {
@@ -20,6 +22,8 @@ const Homepage = () => {
       <Menu />
       <Servicios />
       <Contacto />
+      <AboutUs />
+      <Informacion />
       {/* <Footer /> */}
     </>
   );

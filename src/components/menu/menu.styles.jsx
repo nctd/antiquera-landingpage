@@ -43,7 +43,7 @@ export const MenuContent = styled.div`
   }
 `;
 
-export const MenuTitle = styled.h1`
+export const MenuTitulo = styled.h1`
   color: #262222;
   font-size: 30px;
   text-align: justify;
@@ -61,7 +61,7 @@ export const MenuTitle = styled.h1`
   }
 `;
 
-export const MenuSubtitle = styled.p`
+export const MenuSubtitulo = styled.p`
   margin-top: 24px;
   color: #262222;
   font-size: 20px;

@@ -3,8 +3,8 @@ import React from "react";
 import {
   MenuContainer,
   MenuContent,
-  MenuTitle,
-  MenuSubtitle,
+  MenuTitulo,
+  MenuSubtitulo,
   SpanColor,
   MenuColumn,
   MenuImage,
@@ -21,17 +21,17 @@ const Menu = () => {
         </MenuColumn>
 
         <MenuColumn>
-          <MenuTitle>
+          <MenuTitulo>
             Como estudio <SpanColor>Jurídico</SpanColor> de la región de
             Antofagasta con trayectoria, promovemos el desarrollo de los
             proyectos de las personas y empresas.
-          </MenuTitle>
-          <MenuSubtitle>
+          </MenuTitulo>
+          <MenuSubtitulo>
             Somos profesionales en el área del derecho de universidades públicas
             que entregan herramientas afines para la resolución de conflictos de
             relevancia jurídica, y que guían en los procesos en que se necesiten
             soluciones.
-          </MenuSubtitle>
+          </MenuSubtitulo>
         </MenuColumn>
       </MenuContent>
     </MenuContainer>
