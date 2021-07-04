@@ -5,6 +5,14 @@ import {
   FooterWrapper,
   FooterColumn,
   FooterLogo,
+  FooterTexto,
+  FooterInput,
+  FooterButton,
+  FooterButtonLink,
+  FooterInputWrapper,
+  FooterMenu,
+  FooterItem,
+  FooterLink,
   // FooterLinkContainer,
   // FooterLinkWrapper,
   // FooterLinkItems,
@@ -12,7 +20,7 @@ import {
   // FooterLink,
 } from "./footer.styles";
 
-import Logo from "../../assets/logoweb.png";
+import Logo from "../../assets/footerlogo.png";
 
 const Footer = () => {
   return (
@@ -21,41 +29,48 @@ const Footer = () => {
         <FooterColumn>
           <FooterLogo src={Logo} />
         </FooterColumn>
+        <FooterColumn>
+          <FooterTexto>
+            Maipú Nº499, Of 303 Ed Padre Alberto Hurtado
+            <br />
+            <br />
+            Antofagasta-Chile
+            <br />
+            <br />
+            <p style={{ fontWeight: "bolder" }}>+5698828230</p>
+            <br />
+            <p style={{ fontWeight: "bolder" }}> (55) 2781022</p>
+            <br />
+            <br />
+            <p style={{ fontWeight: "bolder" }}> www.aycm.cl</p>
+          </FooterTexto>
+        </FooterColumn>
+        <FooterColumn>
+          <FooterTexto>Escribenos y te contactaremos.</FooterTexto>
+          <FooterInputWrapper>
+            <FooterInput type="text" placeholder="Email" />
+            <FooterButton>
+              <FooterButtonLink>Ingresar</FooterButtonLink>
+            </FooterButton>
+          </FooterInputWrapper>
+          <FooterMenu>
+            <FooterItem>
+              <FooterLink>Inicio</FooterLink>
+            </FooterItem>
+            <FooterItem>
+              <FooterLink>Quienes somos</FooterLink>
+            </FooterItem>
+            <FooterItem>
+              <FooterLink>Nosotros</FooterLink>
+            </FooterItem>
+            <FooterItem>
+              <FooterLink>Servicios</FooterLink>
+            </FooterItem>
+          </FooterMenu>
+        </FooterColumn>
       </FooterWrapper>
     </FooterContainer>
   );
 };
-/* //   <FooterWrapper>
-    //     <img src={Logo} alt="footer-logo" />
-    //     <FooterLinkContainer>
-    //       <FooterLinkWrapper>
-    //         <FooterLinkItems>
-    //           <FooterLinkTitle>
-    //             <FooterLink>Inicio</FooterLink>
-    //           </FooterLinkTitle>
-    //         </FooterLinkItems>
-    //       </FooterLinkWrapper>
-    //       <FooterLinkWrapper>
-    //         <FooterLinkItems>
-    //           <FooterLinkTitle>
-    //             <FooterLink>Quienes somos</FooterLink>
-    //           </FooterLinkTitle>
-    //         </FooterLinkItems>
-    //       </FooterLinkWrapper>
-    //       <FooterLinkWrapper>
-    //         <FooterLinkItems>
-    //           <FooterLinkTitle>
-    //             <FooterLink>Nuestro Equipo</FooterLink>
-    //           </FooterLinkTitle>
-    //         </FooterLinkItems>
-    //       </FooterLinkWrapper>
-    //       <FooterLinkWrapper>
-    //         <FooterLinkItems>
-    //           <FooterLinkTitle>
-    //             <FooterLink>Servicios</FooterLink>
-    //           </FooterLinkTitle>
-    //         </FooterLinkItems>
-    //       </FooterLinkWrapper>
-    //     </FooterLinkContainer>
-    //   </FooterWrapper> */
+
 export default Footer;

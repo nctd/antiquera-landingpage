@@ -48,6 +48,9 @@ export const ContactoTitulo = styled.h1`
   color: #262222;
   margin-bottom: 30px;
 
+  @media screen and (max-width: 1100px) {
+    font-size: 40px;
+  }
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -56,9 +59,12 @@ export const ContactoTitulo = styled.h1`
 export const ContactoSubtitulo = styled.p`
   color: #262222;
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 64px;
-
+  font-weight: bolder;
+  @media screen and (max-width: 1100px) {
+    font-size: 16px;
+  }
   @media screen and (max-width: 768px) {
     display: none;
   }

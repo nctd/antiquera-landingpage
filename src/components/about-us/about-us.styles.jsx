@@ -72,6 +72,10 @@ export const AboutUsTitulo = styled.h1`
   font-size: 50px;
   text-align: justify;
 
+  @media screen and (max-width: 1000px) {
+    font-size: 38px;
+  }
+
   @media screen and (max-width: 768px) {
     font-size: 28px;
     padding-top: 40px;
@@ -104,6 +108,7 @@ export const AboutUsSubtitulo = styled.p`
   color: #262222;
   font-size: 20px;
   text-align: justify;
+  font-weight: bolder;
   // max-width: 600px;
 
   @media screen and (max-width: 768px) {

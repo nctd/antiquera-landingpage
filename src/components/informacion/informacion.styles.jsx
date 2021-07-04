@@ -1,7 +1,7 @@
 import styled from "styled-components";
 export const InfoContainer = styled.div`
   // height: 800px;
-  margin-top: 200px;
+  margin-top: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,16 +32,18 @@ export const InfoContent = styled.div`
   /* grid-column-gap: 20rem; */
   align-items: center;
   grid-gap: 10rem;
-  padding: 0 50px;
+  padding: 0 100px;
 
-  @media screen and (max-width: 1000px) {
-    grid-template-columns: 1fr 1fr;
+  @media screen and (max-width: 1100px) {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
   }
 
   @media screen and (max-width: 768px) {
     /* grid-template-columns: 1fr; */
     grid-template-columns: minmax(100px, max-content);
-    /* padding: 0 20px; */
+    padding: 0 20px;
+
     grid-gap: 0;
   }
 `;
@@ -85,23 +87,17 @@ export const InfoColumn = styled.div`
 export const CardImagen = styled.img`
   box-shadow: 0px 9px 9px #000000ac;
   width: 100%;
-  height: 400px;
-  object-fit: cover;
+  height: 350px;
+  object-fit: fill;
   margin-bottom: 25px;
   /* max-width: 500px;
   max-height: 450px; */
 
   @media screen and (max-width: 768px) {
     width: 100%;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
   }
   @media screen and (max-width: 480px) {
     width: 100%;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
   }
   /* width: 500px;
   height: 450px;
@@ -143,11 +139,12 @@ export const CardTitulo = styled.h2`
 `;
 
 export const CardSubtitulo = styled.p`
-  font-size: 16px;
+  font-size: 18px;
   text-align: justify;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  font-weight: bold;
   @media screen and (max-width: 768px) {
     width: -webkit-fit-content;
     width: -moz-fit-content;
@@ -167,18 +164,21 @@ export const SpanColor = styled.span`
 `;
 
 export const SubtitulosContainer = styled.div`
-  height: 250px;
-  padding-bottom: 50px;
+  height: ${(props) => (props.overflow ? "250px" : "auto")};
+  /* height: 250px; */
+
   align-self: center;
   @media screen and (max-width: 768px) {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+    padding-bottom: 50px;
   }
 
   @media screen and (max-width: 480px) {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+    padding-bottom: 50px;
   }
 `;

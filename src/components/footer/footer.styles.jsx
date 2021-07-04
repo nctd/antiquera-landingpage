@@ -1,80 +1,169 @@
 import styled from "styled-components";
-// import { Link as LinkRouter } from "react-router-dom";
+import { Link as LinkRouter } from "react-router-dom";
+import { Link as LinkScroll } from "react-scroll";
 
 export const FooterContainer = styled.footer`
-  background-color: #101522;
+  background-color: #0f171f;
   margin-top: 50px;
 `;
 export const FooterWrapper = styled.div`
-  max-width: 1520px;
-  // max-width: 1000px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
-  grid-gap: 16px;
-  padding: 0 50px;
+  grid-gap: 10rem;
+  padding: 48px 24px;
 
   @media screen and (max-width: 1000px) {
-    grid-template-columns: 1fr 1fr;
-    background: #0f171f;
+    grid-template-columns: 1fr;
+    grid-gap: 0;
   }
 
   @media screen and (max-width: 768px) {
-    // grid-template-columns: 1fr;
-    grid-template-columns: minmax(100px, max-content);
-
-    padding: 0 20px;
-    background: #0f171f;
+    grid-template-columns: 1fr;
   }
 `;
 
 export const FooterColumn = styled.div`
-  background: #fff;
+  margin-left: 40px;
+  width: 350px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   border-radius: 30px;
-  padding: 30px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  transition: all 0.2s ease-in-out;
+  padding: 20px;
 
-  &:hover {
-    transform: scale(1.02);
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
+  @media screen and (max-width: 1000px) {
+    margin-left: 0px;
+    max-width: 350px;
+    margin: 0 auto;
+
+    :nth-child(2) {
+      order: 1;
+    }
   }
 
   @media screen and (max-width: 768px) {
-    background: none;
-    box-shadow: none;
-    /* padding: 10px; */
-  }
-
-  @media screen and (max-width: 480px) {
-    background: none;
-    box-shadow: none;
-    /* padding: 10px; */
+    margin-left: 0px;
+    max-width: 350px;
+    margin: 0 auto;
   }
 `;
 
 export const FooterLogo = styled.img`
-  // height: 160px;
-  // width: 160px;
-  width: 279px;
-  height: 296px;
+  width: 369px;
+  height: 100%;
   margin-bottom: 25px;
-  box-shadow: 0px 8px 8px #000000ac;
 
   @media screen and (max-width: 768px) {
-    border-radius: 50%;
-    box-shadow: none;
+    width: 100%;
   }
 
   @media screen and (max-width: 480px) {
-    border-radius: 50%;
-    box-shadow: none;
+    width: 100%;
+  }
+`;
+
+export const FooterTexto = styled.p`
+  font-size: 20px;
+  text-align: justify;
+
+  color: #fff;
+`;
+
+export const FooterInput = styled.input`
+  background: #fff;
+  box-shadow: 0px 3px 6px #00000026;
+  border-radius: 19px;
+  height: 50px;
+  width: 509px;
+  padding-left: 1rem;
+  border: 1px solid #00000026;
+  &::placeholder {
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #7070708c;
+    opacity: 1;
+    font-weight: bolder;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: fit-content;
+  }
+`;
+
+export const FooterInputWrapper = styled.div`
+  display: grid;
+  padding-top: 20px;
+  grid-column-gap: 1rem;
+  /* grid-template-columns: auto 1fr; */
+  grid-template-columns: minmax(auto, 300px) 40px;
+`;
+
+export const FooterButton = styled.div`
+  display: flex;
+  align-items: center;
+  /* margin-top: 32px; */
+  justify-content: column;
+
+  // flex-direction: column;
+  @media screen and (max-width: 768px) {
+  }
+`;
+
+export const FooterButtonLink = styled(LinkRouter)`
+  border-radius: 50px;
+  background: #e5b06e;
+  white-space: nowrap;
+  /* padding: 10px 22px; */
+  padding: 15px 39px;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  width: 150px;
+  height: 50px;
+
+  &:active {
+    background-color: #fff;
+    color: #e5b06e;
+    transform: translateY(4px);
+  }
+`;
+
+export const FooterMenu = styled.ul`
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`;
+
+export const FooterItem = styled.li`
+  height: 80px;
+`;
+
+export const FooterLink = styled(LinkScroll)`
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 3rem;
+  height: 100%;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 18px;
+  white-space: nowrap;
+  &:active {
+    border-bottom: 3px solid #0f171f;
   }
 `;
 

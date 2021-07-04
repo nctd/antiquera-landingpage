@@ -7,7 +7,8 @@ import Servicios from "../../components/servicios/servicios.component";
 import Contacto from "../../components/contacto/contacto.component";
 import AboutUs from "../../components/about-us/about-us.component";
 import Informacion from "../../components/informacion/informacion.component";
-// import Footer from "../../components/footer/footer.component";
+import Equipo from "../../components/equipo/equipo.component";
+import Footer from "../../components/footer/footer.component";
 
 const Homepage = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +25,8 @@ const Homepage = () => {
       <Contacto />
       <AboutUs />
       <Informacion />
-      {/* <Footer /> */}
+      <Equipo />
+      <Footer />
     </>
   );
 };

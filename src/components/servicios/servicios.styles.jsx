@@ -39,7 +39,7 @@ export const ServiciosWrapper = styled.div`
   grid-gap: 16px;
   padding: 0 50px;
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1500px) {
     grid-template-columns: 1fr 1fr;
     background: #0f171f;
   }
@@ -76,9 +76,9 @@ export const ServiciosTitulo = styled.h1`
 export const ServiciosSubtitulo = styled.p`
   color: #262222;
   text-align: center;
-  font-size: 18px;
+  font-size: 25px;
   margin-bottom: 60px;
-
+  font-weight: bolder;
   @media screen and (max-width: 768px) {
     color: #fff;
     padding: 10px;
@@ -108,7 +108,7 @@ export const ServiciosCard = styled.div`
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
-  height: 450px;
+  height: 500px;
   margin-bottom: 120px;
   &:hover {
     transform: scale(1.02);
@@ -164,8 +164,9 @@ export const CardTitulo = styled.h2`
 `;
 
 export const CardSubtitulo = styled.p`
-  font-size: 1rem;
+  font-size: 20px;
   text-align: justify;
+  font-weight: bolder;
   @media screen and (max-width: 768px) {
     color: #fff;
   }
@@ -181,14 +182,14 @@ export const MediaCardTitulo = styled.h2`
   @media screen and (max-width: 768px) {
     display: flex;
     font-size: 1rem;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     color: #fff;
   }
 
   @media screen and (max-width: 480px) {
     display: flex;
     font-size: 1rem;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     color: #fff;
   }
 `;

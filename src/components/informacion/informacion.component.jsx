@@ -25,7 +25,7 @@ const Informacion = () => {
         <InfoColumn>
           <CardImagen src={Card_01} />
           <CardTitulo>Derecho Empresarial</CardTitulo>
-          <SubtitulosContainer>
+          <SubtitulosContainer overflow>
             <CardSubtitulo>
               Asesoramos sobre Ley Nº 20.720 sobre Insolvencia y
               Reemprendimiento
@@ -49,7 +49,7 @@ const Informacion = () => {
         <InfoColumn>
           <CardImagen src={Card_02} />
           <CardTitulo>Derecho Civil</CardTitulo>
-          <SubtitulosContainer>
+          <SubtitulosContainer overflow>
             <CardSubtitulo>
               Asesorías jurídicas
               <SpanColor> procedimientos ejecutivos </SpanColor> relacionado con

@@ -95,8 +95,10 @@ export const HeadLink = styled(LinkScroll)`
   padding: 0 3rem;
   height: 100%;
   cursor: pointer;
+  font-weight: bolder;
+  font-size: 22px;
+  white-space: nowrap;
 
-  // Creo que es :
   &:active {
     border-bottom: 3px solid #0f171f;
   }
@@ -117,8 +119,8 @@ export const HeadButtonLink = styled(LinkRouter)`
   white-space: nowrap;
   padding: 10px 22px;
   color: #fff;
-  font-weight: bold;
-  font-size: 16px;
+  font-weight: bolder;
+  font-size: 22px;
   outline: none;
   border: none;
   cursor: pointer;
@@ -138,7 +140,7 @@ export const HeadButtonLink = styled(LinkRouter)`
 
 export const ButtonArrow = styled(MdArrowForward)`
   vertical-align: bottom;
-  font-size: 19px;
+  font-size: 24px;
 `;
 
 export const HeaderImage = styled.img`
