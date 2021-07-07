@@ -21,7 +21,7 @@ import Card_04 from "../../assets/img-card-04.jpg";
 
 const Servicios = () => {
   return (
-    <ServiciosContainer>
+    <ServiciosContainer id="servicios">
       <ServiciosTitulo>Nuestros servicios</ServiciosTitulo>
       <ServiciosSubtitulo>
         Asesoramos sobre Ley Nº 20.720 sobre Insolvencia y <SaltoLinea />

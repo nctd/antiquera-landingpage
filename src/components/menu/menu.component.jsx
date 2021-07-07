@@ -10,11 +10,11 @@ import {
   MenuImage,
 } from "./menu.styles";
 
-import Imagen from "../../assets/img-menu.jpg";
+import Imagen from "../../assets/img-menu-new.jpg";
 
 const Menu = () => {
   return (
-    <MenuContainer>
+    <MenuContainer id="inicio">
       <MenuContent>
         <MenuColumn>
           <MenuImage src={Imagen} />

@@ -4,6 +4,8 @@ import { FaBars } from "react-icons/fa";
 
 import Logo from "../../assets/logoweb.png";
 
+import { animateScroll as scroll } from "react-scroll";
+
 import {
   Nav,
   HeaderContainer,
@@ -18,11 +20,15 @@ import {
   ButtonArrow,
 } from "./header.styles";
 
+const toggleHome = () => {
+  scroll.scrollToTop();
+};
+
 const Header = ({ toggle }) => {
   return (
     <Nav>
       <HeaderContainer>
-        <HeaderLogo to="/">
+        <HeaderLogo to="/" onClick={toggleHome}>
           <HeaderImage src={Logo} />
         </HeaderLogo>
 
@@ -32,19 +38,55 @@ const Header = ({ toggle }) => {
 
         <HeadMenu>
           <HeadItem>
-            <HeadLink to="inicio">Inicio</HeadLink>
+            <HeadLink
+              to="inicio"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-140}
+            >
+              Inicio
+            </HeadLink>
           </HeadItem>
 
           <HeadItem>
-            <HeadLink to="quienes">Quienes somos</HeadLink>
+            <HeadLink
+              to="quienes"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-140}
+            >
+              Quienes somos
+            </HeadLink>
           </HeadItem>
 
           <HeadItem>
-            <HeadLink to="equipo">Nuestro equipo</HeadLink>
+            <HeadLink
+              to="equipo"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-140}
+            >
+              Nuestro equipo
+            </HeadLink>
           </HeadItem>
 
           <HeadItem>
-            <HeadLink to="servicios">Servicios</HeadLink>
+            <HeadLink
+              to="servicios"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-140}
+            >
+              Servicios
+            </HeadLink>
           </HeadItem>
 
           <HeadButton>

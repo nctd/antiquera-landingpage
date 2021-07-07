@@ -13,7 +13,7 @@ import Imagen from "../../assets/img-about.jpg";
 
 const AboutUs = () => {
   return (
-    <AboutUsContainer>
+    <AboutUsContainer id="quienes">
       <AboutUsContent>
         <AboutUsColumn>
           <AboutUsImage src={Imagen} />

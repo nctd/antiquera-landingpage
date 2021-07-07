@@ -60,7 +60,7 @@ export const SidebarLink = styled(LinkScroll)`
   cursor: pointer;
 
   &:hover {
-    color: red;
+    color: #e5b06e;
     transition: 0.2s ease-in-out;
   }
 `;

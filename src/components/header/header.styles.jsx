@@ -13,13 +13,13 @@ export const Nav = styled.nav`
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  // position: sticky;
+  position: sticky;
   top: 0;
   z-index: 10;
   margin-bottom: 1rem;
   left: 0;
 
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1360px) {
     transition: 0.8s all ease;
     height: 100%;
   }
@@ -28,28 +28,25 @@ export const Nav = styled.nav`
 export const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  height: 80px;
+  align-items: center;
+  height: 110px;
   z-index: 1;
-  width: 80%;
+  width: 100%;
   padding: 0 24px;
   max-width: 1580px;
   // max-width: 1100px;
 
-  @media screen and (max-width: 960px) {
-    display: inline-grid;
+  @media screen and (max-width: 1360px) {
+    /* display: inline-grid; */
   }
 `;
 
 export const HeaderLogo = styled(LinkRouter)`
-  color: black;
-  justify-self: flex-start;
+  /* justify-self: flex-start; */
   cursor: pointer;
-  font-size: 1.5rem;
   display: flex;
   align-items: center;
   /* margin-left: 24px; */
-  font-weight: bold;
-  text-decoration: none;
 
   @media screen and (max-width: 768px) {
     align-items: left;
@@ -59,8 +56,8 @@ export const HeaderLogo = styled(LinkRouter)`
 export const ResponsiveIcon = styled.div`
   display: none;
 
-  @media screen and (max-width: 768px) {
-    display: block;
+  @media screen and (max-width: 1360px) {
+    display: contents;
     position: absolute;
     // top: 0;
     right: 0;
@@ -76,9 +73,9 @@ export const HeadMenu = styled.ul`
   align-items: center;
   list-style: none;
   text-align: center;
-  margin-right: -22px;
+  /* margin-right: -22px; */
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1360px) {
     display: none;
   }
 `;
@@ -96,10 +93,10 @@ export const HeadLink = styled(LinkScroll)`
   height: 100%;
   cursor: pointer;
   font-weight: bolder;
-  font-size: 22px;
+  font-size: 20px;
   white-space: nowrap;
 
-  &:active {
+  &.active {
     border-bottom: 3px solid #0f171f;
   }
 `;
@@ -108,7 +105,7 @@ export const HeadButton = styled.nav`
   display: flex;
   align-items: center;
   // flex-direction: column;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1360px) {
     display: none;
   }
 `;
@@ -120,7 +117,7 @@ export const HeadButtonLink = styled(LinkRouter)`
   padding: 10px 22px;
   color: #fff;
   font-weight: bolder;
-  font-size: 22px;
+  font-size: 20px;
   outline: none;
   border: none;
   cursor: pointer;
@@ -146,15 +143,5 @@ export const ButtonArrow = styled(MdArrowForward)`
 export const HeaderImage = styled.img`
   // width: 100%;
   height: 135px;
-  margin-left: -8px;
-  @media screen and (max-width: 768px) {
-    width: 90%;
-    margin-left: -25px;
-    height: auto;
-  }
-  @media screen and (max-width: 480px) {
-    width: 90%;
-    margin-left: -25px;
-    height: auto;
-  }
+  /* margin-left: -8px; */
 `;

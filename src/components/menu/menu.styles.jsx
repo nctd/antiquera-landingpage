@@ -45,8 +45,13 @@ export const MenuContent = styled.div`
 
 export const MenuTitulo = styled.h1`
   color: #262222;
-  font-size: 42px;
+  font-size: 40px;
   text-align: justify;
+  @media screen and (max-width: 900px) {
+    font-size: 30px;
+    padding-top: 40px;
+    text-align: justify;
+  }
 
   @media screen and (max-width: 768px) {
     font-size: 20px;

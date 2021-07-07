@@ -15,7 +15,7 @@ import Card_04 from "../../assets/img-cynthiaavalos.jpg";
 
 const Equipo = () => {
   return (
-    <EquipoContainer>
+    <EquipoContainer id="equipo">
       <EquipoTitulo>Nuestro equipo</EquipoTitulo>
       <EquipoContent>
         <EquipoColumn>

@@ -145,6 +145,7 @@ export const CardSubtitulo = styled.p`
   width: -moz-fit-content;
   width: fit-content;
   font-weight: bold;
+
   @media screen and (max-width: 768px) {
     width: -webkit-fit-content;
     width: -moz-fit-content;
@@ -164,7 +165,7 @@ export const SpanColor = styled.span`
 `;
 
 export const SubtitulosContainer = styled.div`
-  height: ${(props) => (props.overflow ? "250px" : "auto")};
+  height: ${(props) => (props.overflow ? "350px" : "auto")};
   /* height: 250px; */
 
   align-self: center;
