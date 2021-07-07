@@ -25,10 +25,6 @@ import {
 
 import Logo from "../../assets/footerlogo.png";
 
-const toggleHome = () => {
-  scroll.scrollToTop();
-};
-
 const Footer = () => {
   return (
     <FooterContainer>

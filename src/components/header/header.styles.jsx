@@ -144,4 +144,7 @@ export const HeaderImage = styled.img`
   // width: 100%;
   height: 135px;
   /* margin-left: -8px; */
+  @media screen and (max-width: 480px) {
+    height: 100px;
+  }
 `;
