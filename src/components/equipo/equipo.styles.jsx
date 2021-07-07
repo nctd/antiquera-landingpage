@@ -109,3 +109,9 @@ export const ImagenTitulo = styled.h2`
   display: inline-block;
   padding-bottom: 30px;
 `;
+export const ImagenCargo = styled.p`
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  padding-bottom: 30px;
+`;
