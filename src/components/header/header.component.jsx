@@ -90,7 +90,7 @@ const Header = ({ toggle }) => {
           </HeadItem>
 
           <HeadButton>
-            <HeadButtonLink to="/contact">
+            <HeadButtonLink to="/contacto">
               <ButtonArrow /> Contactanos
             </HeadButtonLink>
           </HeadButton>

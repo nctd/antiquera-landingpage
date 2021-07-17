@@ -1,15 +1,19 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import "./App.css";
 
-import Homepage from "./pages/homepage/homepage.component";
+import HomePage from "./pages/homepage/homepage.component";
+import CorreoPage from "./pages/correo/correo.page";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Homepage />
-    </BrowserRouter>
+    <Router>
+      <Switch>
+        <Route path="/" component={HomePage} exact />
+        <Route path="/contacto" component={CorreoPage} exact />
+      </Switch>
+    </Router>
   );
 }
 

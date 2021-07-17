@@ -10,7 +10,7 @@ import Informacion from "../../components/informacion/informacion.component";
 import Equipo from "../../components/equipo/equipo.component";
 import Footer from "../../components/footer/footer.component";
 
-const Homepage = () => {
+const HomePage = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
     setIsOpen(!isOpen);
@@ -31,4 +31,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default HomePage;
