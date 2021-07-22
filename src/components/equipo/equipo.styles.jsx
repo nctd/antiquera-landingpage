@@ -85,14 +85,12 @@ export const EquipoColumn = styled.div`
 export const EquipoImagen = styled.img`
   box-shadow: 0px 3px 6px #00000029;
   width: 100%;
-  /* height: 350px; */
   height: ${(props) => (props.central ? "420px" : "320px")};
   object-fit: cover;
   margin-bottom: 25px;
 
   @media screen and (max-width: 1100px) {
     height: 350px;
-    /* margin-bottom: 60px; */
   }
 
   @media screen and (max-width: 768px) {

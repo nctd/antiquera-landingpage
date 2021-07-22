@@ -31,15 +31,11 @@ export const ContactoWrapper = styled.div`
   display: inline-block;
   position: relative;
   @media screen and (max-width: 1000px) {
-    /* grid-template-columns: 1fr 1fr; */
     padding: 0 20px;
-    /* background: #0f171f; */
   }
 
   @media screen and (max-width: 768px) {
-    /* grid-template-columns: minmax(100px, max-content); */
     padding: 0 20px;
-    /* background: #0f171f; */
   }
 `;
 
@@ -101,11 +97,9 @@ export const ContactoCard = styled.div`
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    /* border-radius: 30px; */
     padding: 30px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease-in-out;
-    /* height: 450px; */
     margin-bottom: 20px;
     &:hover {
       transform: scale(1.02);
@@ -129,7 +123,6 @@ export const ContactoButton = styled.div`
   margin-top: 32px;
   justify-content: column;
 
-  // flex-direction: column;
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -139,7 +132,6 @@ export const ContactoButtonLink = styled(LinkRouter)`
   border-radius: 50px;
   background: #0f171f;
   white-space: nowrap;
-  /* padding: 10px 22px; */
   padding: 25px 80px;
   color: #fff;
   font-weight: bold;
@@ -154,7 +146,6 @@ export const ContactoButtonLink = styled(LinkRouter)`
 
   &:active {
     background-color: #0f171f;
-    // box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
 `;
@@ -176,8 +167,6 @@ export const ResponsiveSubTitulo = styled.p`
   @media screen and (max-width: 768px) {
     font-size: 18px;
     color: #737373;
-    /* margin-top: 40px; */
-    /* margin-bottom: 64px; */
     display: block;
     letter-spacing: 0.26px;
   }
@@ -188,7 +177,6 @@ export const ResponsiveWrapper = styled.div`
   @media screen and (max-width: 768px) {
     display: grid;
     padding-top: 20px;
-    /* grid-template-columns: auto 1fr; */
     grid-template-columns: minmax(auto, 300px) 40px;
   }
 `;
@@ -197,13 +185,10 @@ export const ResponsiveInput = styled.input`
   display: none;
 
   @media screen and (max-width: 768px) {
-    /* margin-top: 20px; */
     display: flex;
     width: 100%;
     background: #ebebeb;
     border-radius: 4px;
-    /* opacity: 1; */
-    /* font-size: 30px; */
     padding-left: 5px;
 
     &::placeholder {
@@ -219,7 +204,6 @@ export const ResponsiveInput = styled.input`
 
 export const ResponsiveButton = styled.div`
   display: none;
-  // flex-direction: column;
   @media screen and (max-width: 768px) {
     display: inline-block;
 
@@ -242,14 +226,9 @@ export const ResponsiveButtonLink = styled(LinkRouter)`
     text-decoration: none;
 
     position: relative;
-    /* top: 19px;
-    height: 38px; */
-
-    /* width: 40px; */
 
     &:active {
       background-color: #0f171f;
-      // box-shadow: 0 5px #666;
       transform: translateY(4px);
     }
   }

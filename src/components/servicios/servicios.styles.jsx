@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const ServiciosContainer = styled.div`
-  // height: 800px;
   margin-top: 200px;
   display: flex;
   flex-direction: column;
@@ -9,28 +8,19 @@ export const ServiciosContainer = styled.div`
   align-items: center;
   background: linear-gradient(to bottom, #fff 50%, #0f171f 50%);
 
-  @media screen and (max-width: 1000px) {
-    /* width: 1520px; */
-  }
-
   @media screen and (max-width: 768px) {
     height: 100%;
-    // height: 1100px;
     background: #0f171f;
-    /* display: inline-flex; */
   }
 
   @media screen and (max-width: 480px) {
     height: 100%;
-    // height: 1300px;
     background: #0f171f;
-    /* display: inline-flex; */
   }
 `;
 
 export const ServiciosWrapper = styled.div`
-  max-width: 1520px;
-  // max-width: 1000px;
+  max-width: 1560px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -45,9 +35,7 @@ export const ServiciosWrapper = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    /* grid-template-columns: 1fr; */
     grid-template-columns: minmax(100px, max-content);
-
     padding: 0 20px;
     background: #0f171f;
   }
@@ -120,20 +108,16 @@ export const ServiciosCard = styled.div`
     background: none;
     box-shadow: none;
     margin-bottom: 30px;
-    /* padding: 10px; */
   }
 
   @media screen and (max-width: 480px) {
     background: none;
     box-shadow: none;
     margin-bottom: 30px;
-    /* padding: 10px; */
   }
 `;
 
 export const CardIcon = styled.img`
-  // height: 160px;
-  // width: 160px;
   width: 279px;
   height: 296px;
   margin-bottom: 25px;
@@ -164,15 +148,17 @@ export const CardTitulo = styled.h2`
 `;
 
 export const CardSubtitulo = styled.p`
-  font-size: 20px;
+  font-size: 16px;
   text-align: justify;
   font-weight: bolder;
   @media screen and (max-width: 768px) {
     color: #fff;
+    text-align: center;
   }
 
   @media screen and (max-width: 480px) {
     color: #fff;
+    text-align: center;
   }
 `;
 
@@ -181,36 +167,20 @@ export const MediaCardTitulo = styled.h2`
 
   @media screen and (max-width: 768px) {
     display: flex;
-    font-size: 1rem;
+    font-size: 20px;
     margin-bottom: 30px;
     color: #fff;
+    font-weight: bolder;
   }
 
   @media screen and (max-width: 480px) {
     display: flex;
-    font-size: 1rem;
+    font-size: 20px;
     margin-bottom: 30px;
     color: #fff;
+    font-weight: bolder;
   }
 `;
-
-// export const LineaMedia = styled.hr`
-//   display: none;
-
-//   @media screen and (max-width: 768px) {
-//     width: 85%;
-//     color: #fff;
-//     display: flex;
-//     margin-bottom: 10px;
-//   }
-
-//   @media screen and (max-width: 480px) {
-//     width: 85%;
-//     color: #fff;
-//     display: flex;
-//     margin-bottom: 10px;
-//   }
-// `;
 
 export const SaltoLinea = styled.br`
   @media screen and (max-width: 768px) {

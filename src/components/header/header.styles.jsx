@@ -6,9 +6,7 @@ import { MdArrowForward } from "react-icons/md";
 
 export const Nav = styled.nav`
   background: #ffffff 0% 0% no-repeat padding-box;
-
-  height: 110px; //esto era 80
-  // margin-top: -80px;
+  height: 110px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,19 +32,12 @@ export const HeaderContainer = styled.div`
   width: 100%;
   padding: 0 24px;
   max-width: 1580px;
-  // max-width: 1100px;
-
-  @media screen and (max-width: 1360px) {
-    /* display: inline-grid; */
-  }
 `;
 
 export const HeaderLogo = styled(LinkRouter)`
-  /* justify-self: flex-start; */
   cursor: pointer;
   display: flex;
   align-items: center;
-  /* margin-left: 24px; */
 
   @media screen and (max-width: 768px) {
     align-items: left;
@@ -59,7 +50,6 @@ export const ResponsiveIcon = styled.div`
   @media screen and (max-width: 1360px) {
     display: contents;
     position: absolute;
-    // top: 0;
     right: 0;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
@@ -73,7 +63,6 @@ export const HeadMenu = styled.ul`
   align-items: center;
   list-style: none;
   text-align: center;
-  /* margin-right: -22px; */
 
   @media screen and (max-width: 1360px) {
     display: none;
@@ -104,7 +93,7 @@ export const HeadLink = styled(LinkScroll)`
 export const HeadButton = styled.nav`
   display: flex;
   align-items: center;
-  // flex-direction: column;
+
   @media screen and (max-width: 1360px) {
     display: none;
   }
@@ -123,14 +112,9 @@ export const HeadButtonLink = styled(LinkRouter)`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-  // &:hover {
-  //   transition: all 0.2s ease-in-out;
-  //   background: #fff;
-  //   color: #0f171f;
-  // }
+
   &:active {
     background-color: #0f171f;
-    // box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
 `;
@@ -141,9 +125,8 @@ export const ButtonArrow = styled(MdArrowForward)`
 `;
 
 export const HeaderImage = styled.img`
-  // width: 100%;
   height: 135px;
-  /* margin-left: -8px; */
+
   @media screen and (max-width: 480px) {
     height: 100px;
   }

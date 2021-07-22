@@ -3,12 +3,6 @@ import { Link as LinkRouter } from "react-router-dom";
 
 export const CorreoContainer = styled.div`
   min-height: 692px;
-  /* position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 0; */
   overflow: hidden;
   background: #ffffff;
 `;
@@ -18,10 +12,6 @@ export const FormWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  @media screen and (max-width: 400px) {
-    /* height: 80%; */
-  }
 `;
 
 export const FormContent = styled.div`
@@ -101,13 +91,11 @@ export const Text = styled.span`
 export const CorreoNav = styled.nav`
   background: #ffffff 0% 0% no-repeat padding-box;
 
-  height: 110px; //esto era 80
-  // margin-top: -80px;
+  height: 110px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  /* position: sticky; */
   top: 0;
   z-index: 10;
   margin-bottom: 1rem;
@@ -128,11 +116,6 @@ export const CorreoContainerLogo = styled.div`
   width: 100%;
   padding: 0 24px;
   max-width: 1580px;
-  // max-width: 1100px;
-
-  @media screen and (max-width: 1360px) {
-    /* display: inline-grid; */
-  }
 `;
 
 export const CorreoLogo = styled(LinkRouter)`

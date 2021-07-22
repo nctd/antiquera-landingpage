@@ -4,7 +4,6 @@ import { Link as LinkScroll } from "react-scroll";
 
 export const FooterContainer = styled.footer`
   background-color: #0f171f;
-
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -36,7 +35,6 @@ export const FooterWrapper = styled.div`
 `;
 
 export const FooterColumn = styled.div`
-  /* max-width: 450px; */
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -44,7 +42,6 @@ export const FooterColumn = styled.div`
 
   @media screen and (max-width: 1100px) {
     margin-left: 0px;
-    /* max-width: 350px; */
     margin: 0 auto;
     width: 100%;
 
@@ -79,7 +76,6 @@ export const FooterTexto = styled.p`
   text-align: justify;
   white-space: nowrap;
   color: #fff;
-  /* margin-left: -280px; */
 
   @media screen and (max-width: 1100px) {
     margin-left: 0;
@@ -152,8 +148,6 @@ export const FooterInputWrapper = styled.div`
   display: flex;
   padding-top: 30px;
   grid-column-gap: 1rem;
-  /* grid-template-columns: auto 1fr; */
-  /* grid-template-columns: minmax(auto, 300px) 40px; */
 
   @media screen and (max-width: 768px) {
     width: 100%;
@@ -166,10 +160,8 @@ export const FooterInputWrapper = styled.div`
 export const FooterButton = styled.div`
   display: flex;
   align-items: center;
-  /* margin-top: 32px; */
   justify-content: column;
 
-  // flex-direction: column;
   @media screen and (max-width: 768px) {
     display: table-cell;
     cursor: pointer;
@@ -181,7 +173,6 @@ export const FooterButtonLink = styled(LinkRouter)`
   border-radius: 50px;
   background: #e5b06e;
   white-space: nowrap;
-  /* padding: 10px 22px; */
   padding: 15px 39px;
   color: #fff;
   font-weight: bolder;

@@ -37,12 +37,10 @@ export const AboutUsContent = styled.div`
 
   @media screen and (max-width: 768px) {
     flex-direction: row;
-    /* margin-top: 80px; */
     padding: 8px 20px;
   }
   @media screen and (max-width: 480px) {
     flex-direction: column;
-    /* margin-top: 80px; */
     padding: 8px 20px;
   }
 `;
@@ -109,7 +107,6 @@ export const AboutUsSubtitulo = styled.p`
   font-size: 20px;
   text-align: justify;
   font-weight: bolder;
-  // max-width: 600px;
 
   @media screen and (max-width: 768px) {
     font-size: 15px;

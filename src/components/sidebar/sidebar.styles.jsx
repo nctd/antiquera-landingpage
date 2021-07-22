@@ -8,7 +8,6 @@ export const SidebarContainer = styled.aside`
   z-index: 999;
   width: 100%;
   height: 100%;
-  // background: #0d0d0d;
   background: #ffffff;
   display: grid;
   align-items: center;
@@ -82,14 +81,8 @@ export const SidebarButtonLink = styled(LinkRouter)`
   transition: 0.2s ease-in-out;
   text-decoration: none;
 
-  // &:hover {
-  //   transition: 0.2s ease-in-out;
-  //   background: #fff;
-  //   color: #010606;
-  // }
   &:active {
     background-color: #0f171f;
-    // box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
 `;

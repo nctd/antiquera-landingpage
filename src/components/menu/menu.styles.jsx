@@ -23,12 +23,8 @@ export const MenuContent = styled.div`
   padding: 8px 40px;
   display: flex;
   flex-direction: row;
-  // align-items: center;
-  //
-  // display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   align-items: center;
-  // margin-bottom: 30px;
   margin-top: 30px;
 
   @media screen and (max-width: 768px) {
@@ -72,7 +68,6 @@ export const MenuSubtitulo = styled.p`
   font-size: 25px;
   text-align: justify;
   font-weight: bolder;
-  // max-width: 600px;
 
   @media screen and (max-width: 768px) {
     font-size: 15px;
@@ -84,18 +79,9 @@ export const MenuSubtitulo = styled.p`
   }
 `;
 
-// export const MenuButtonWrapper = styled.div`
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-// `;
 export const SpanColor = styled.span`
   color: #e5b06e;
 `;
-// export const ButtonArrow = styled(MdArrowForward)`
-//   margin-left: 8px;
-//   font-size: 20px;
-// `;
 
 export const MenuColumn = styled.div`
   display: flex;

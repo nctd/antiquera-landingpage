@@ -65,7 +65,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           </SidebarLink>
         </SidebarMenu>
         <SidebarButton>
-          <SidebarButtonLink to="/contact"> Contactanos </SidebarButtonLink>
+          <SidebarButtonLink to="/contacto"> Contactanos </SidebarButtonLink>
         </SidebarButton>
       </SidebarWrapper>
     </SidebarContainer>
