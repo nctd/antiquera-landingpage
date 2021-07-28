@@ -35,11 +35,11 @@ class Contacto extends React.Component {
   render() {
     return (
       <ContactoContainer>
-        <ContactoTitulo>Déjanos tus datos y te contactaremos</ContactoTitulo>
+        <ContactoTitulo>Escribe tus datos y te contactaremos</ContactoTitulo>
         <ContactoSubtitulo>
-          Recuerda que excepcionalmente por contingencia de la pandemia que nos
-          afecta, estamos agendando <br />
-          consultas de manera remota por la plataforma Zoom.
+          Recuerda que la atención es presencial, pero excepcionalmente por
+          pandemia estamos <br /> programando consultas de manera remota por
+          plataforma Zoom.
         </ContactoSubtitulo>
 
         <ContactoWrapper>
@@ -64,11 +64,11 @@ class Contacto extends React.Component {
           <ContactoCard>
             <ContactoImagen src={Imagen} />
 
-            <ResponsiveTitulo>Déjanos tus datos</ResponsiveTitulo>
+            <ResponsiveTitulo>Escribe tus datos</ResponsiveTitulo>
 
             <ResponsiveSubTitulo>
-              Recuerda que excepcionalmente por contingencia de la pandemia que
-              nos afecta, estamos agendando consultas de manera remota por la
+              Recuerda que la atención es presencial, pero excepcionalmente por
+              pandemia estamos programando consultas de manera remota por
               plataforma Zoom.
             </ResponsiveSubTitulo>
             <ResponsiveWrapper>

@@ -48,14 +48,14 @@ export const ServiciosTitulo = styled.h1`
 
   @media screen and (max-width: 768px) {
     margin-top: 20px;
-    font-size: 2rem;
+    font-size: 25px;
     color: #fff;
     margin-bottom: 30px;
   }
 
   @media screen and (max-width: 480px) {
     margin-top: 20px;
-    font-size: 2rem;
+    font-size: 25px;
     color: #fff;
     margin-bottom: 30px;
   }
@@ -63,14 +63,15 @@ export const ServiciosTitulo = styled.h1`
 
 export const ServiciosSubtitulo = styled.p`
   color: #262222;
-  text-align: center;
-  font-size: 25px;
+  text-align: justify;
+  text-align-last: center;
+  font-size: 25px; //2
   margin-bottom: 60px;
   font-weight: bolder;
   @media screen and (max-width: 768px) {
     color: #fff;
     padding: 10px;
-
+    font-size: 18px;
     width: 90%;
     border-bottom: 1px solid #fff;
     padding-bottom: 30px;
@@ -79,7 +80,7 @@ export const ServiciosSubtitulo = styled.p`
   @media screen and (max-width: 480px) {
     color: #fff;
     padding: 10px;
-
+    font-size: 18px;
     width: 90%;
     border-bottom: 2px solid #fff;
     padding-bottom: 30px;
@@ -97,6 +98,7 @@ export const ServiciosCard = styled.div`
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
   height: 500px;
+  margin-top: 20px;
   margin-bottom: 120px;
   &:hover {
     transform: scale(1.02);
@@ -148,17 +150,17 @@ export const CardTitulo = styled.h2`
 `;
 
 export const CardSubtitulo = styled.p`
-  font-size: 16px;
+  font-size: 18px;
   text-align: justify;
   font-weight: bolder;
+  hyphens: auto;
+
   @media screen and (max-width: 768px) {
     color: #fff;
-    text-align: center;
   }
 
   @media screen and (max-width: 480px) {
     color: #fff;
-    text-align: center;
   }
 `;
 

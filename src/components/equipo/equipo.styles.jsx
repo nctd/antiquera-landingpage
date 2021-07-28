@@ -65,6 +65,7 @@ export const EquipoColumn = styled.div`
   padding-bottom: 60px;
   flex: 1;
   padding-top: 10px;
+  height: 100%;
 
   @media screen and (max-width: 1100px) {
     :nth-child(2) {
@@ -86,11 +87,13 @@ export const EquipoImagen = styled.img`
   box-shadow: 0px 3px 6px #00000029;
   width: 100%;
   height: ${(props) => (props.central ? "420px" : "320px")};
+  margin-top: ${(props) => (props.central ? "0px" : "50px")};
   object-fit: cover;
   margin-bottom: 25px;
 
   @media screen and (max-width: 1100px) {
     height: 350px;
+    margin-top: 0px;
   }
 
   @media screen and (max-width: 768px) {
@@ -105,10 +108,10 @@ export const ImagenTitulo = styled.h2`
   font-size: 20px;
   text-align: center;
   display: inline-block;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 `;
 export const ImagenCargo = styled.p`
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   display: inline-block;
   padding-bottom: 30px;

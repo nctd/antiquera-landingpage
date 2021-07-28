@@ -47,7 +47,7 @@ class Footer extends React.Component {
               <br />
               <FooterTextoNormal>
                 <FooterSubtexto style={{ fontWeight: "bolder" }}>
-                  +5698828230
+                  +56988282306
                 </FooterSubtexto>
                 <FooterSubtexto style={{ fontWeight: "bolder" }}>
                   (55) 2781022
@@ -59,7 +59,7 @@ class Footer extends React.Component {
               </FooterTextoNormal>
               <FooterTextoResponsive>
                 <FooterSubtexto style={{ fontWeight: "bolder" }}>
-                  +5698828230
+                  +56988282306
                 </FooterSubtexto>
                 <br />
                 <FooterSubtexto style={{ fontWeight: "bolder" }}>

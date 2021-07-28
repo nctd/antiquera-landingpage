@@ -75,7 +75,7 @@ export const AboutUsTitulo = styled.h1`
   }
 
   @media screen and (max-width: 768px) {
-    font-size: 28px;
+    font-size: 25px;
     padding-top: 40px;
     text-align: justify;
     display: inline-block;
@@ -88,7 +88,7 @@ export const AboutUsTitulo = styled.h1`
   }
 
   @media screen and (max-width: 480px) {
-    font-size: 28px;
+    font-size: 25px;
     padding-top: 40px;
     text-align: justify;
     display: inline-block;
@@ -104,16 +104,16 @@ export const AboutUsTitulo = styled.h1`
 export const AboutUsSubtitulo = styled.p`
   margin-top: 24px;
   color: #262222;
-  font-size: 20px;
+  font-size: 18px;
   text-align: justify;
   font-weight: bolder;
 
   @media screen and (max-width: 768px) {
-    font-size: 15px;
+    font-size: 18px;
     text-align: justify;
   }
   @media screen and (max-width: 480px) {
-    font-size: 15px;
+    font-size: 18px;
     text-align: justify;
   }
 `;

@@ -40,7 +40,7 @@ export const ContactoWrapper = styled.div`
 `;
 
 export const ContactoTitulo = styled.h1`
-  font-size: 60px;
+  font-size: 50px;
   color: #262222;
   margin-bottom: 30px;
 
@@ -54,8 +54,9 @@ export const ContactoTitulo = styled.h1`
 
 export const ContactoSubtitulo = styled.p`
   color: #262222;
-  text-align: center;
-  font-size: 20px;
+  text-align: justify;
+  text-align-last: center;
+  font-size: 18px;
   margin-bottom: 64px;
   font-weight: bolder;
   @media screen and (max-width: 1100px) {
@@ -154,7 +155,7 @@ export const ResponsiveTitulo = styled.h1`
   display: none;
 
   @media screen and (max-width: 768px) {
-    font-size: 1.5rem;
+    font-size: 25px;
     color: #262222;
     margin-top: 40px;
     margin-bottom: 10px;
@@ -168,7 +169,7 @@ export const ResponsiveSubTitulo = styled.p`
     font-size: 18px;
     color: #737373;
     display: block;
-    letter-spacing: 0.26px;
+    text-align: justify;
   }
 `;
 

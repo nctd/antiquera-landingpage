@@ -70,6 +70,16 @@ export const FormInput = styled.input`
   font-size: 16px;
 `;
 
+export const FormTextBox = styled.textarea`
+  padding: 16px 16px;
+  margin-bottom: 32px;
+  border: none;
+  border-radius: 4px;
+  color: #000000;
+  font-weight: bolder;
+  font-size: 16px;
+`;
+
 export const FormButton = styled.button`
   background: #e5b06e;
   padding: 16px 0;

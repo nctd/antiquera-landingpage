@@ -26,16 +26,16 @@ const Servicios = () => {
       <ServiciosSubtitulo>
         Asesoramos sobre Ley Nº 20.720 sobre Insolvencia y <SaltoLinea />
         Reemprendimiento (Ley de quiebras), Derecho <SaltoLinea />
-        Corporativo, Civil, Comercial y Minero.
+        Empresarial, Civil, Arbitral y Minero.
       </ServiciosSubtitulo>
 
       <ServiciosWrapper>
         {/* Derecho empresarial */}
         <ServiciosCard>
-          <CardTitulo>Derecho empresarial</CardTitulo>
+          <CardTitulo>Derecho Empresarial</CardTitulo>
           {/* <ImageHolder style={{ backgroundImage: `url(${Card_01})` }} /> */}
           <CardIcon src={Card_01} />
-          <MediaCardTitulo>Derecho empresarial</MediaCardTitulo>
+          <MediaCardTitulo>Derecho Empresarial</MediaCardTitulo>
           <SubtitulosContainer>
             <CardSubtitulo>
               Sociedades: constitución, modificación, fusiones, divisiones,
@@ -45,9 +45,9 @@ const Servicios = () => {
         </ServiciosCard>
         {/* Derecho civil */}
         <ServiciosCard>
-          <CardTitulo>Derecho civil</CardTitulo>
+          <CardTitulo>Derecho Civil</CardTitulo>
           <CardIcon src={Card_02} />
-          <MediaCardTitulo>Derecho civil</MediaCardTitulo>
+          <MediaCardTitulo>Derecho Civil</MediaCardTitulo>
           <SubtitulosContainer>
             <CardSubtitulo>
               Asesorías en materias civiles y asuntos voluntarios
@@ -56,10 +56,10 @@ const Servicios = () => {
         </ServiciosCard>
         {/* Juicios arbitrales */}
         <ServiciosCard>
-          <CardTitulo>Juicios arbitrales</CardTitulo>
+          <CardTitulo>Juicios Arbitrales</CardTitulo>
 
           <CardIcon src={Card_03} />
-          <MediaCardTitulo>Juicios arbitrales</MediaCardTitulo>
+          <MediaCardTitulo>Juicios Arbitrales</MediaCardTitulo>
           <SubtitulosContainer>
             <CardSubtitulo>
               Asesoría legal en Juicios Arbitrales sobre partición comunidades y
@@ -69,9 +69,9 @@ const Servicios = () => {
         </ServiciosCard>
         {/* Derecho minero */}
         <ServiciosCard>
-          <CardTitulo>Derecho minero</CardTitulo>
+          <CardTitulo>Derecho Minero</CardTitulo>
           <CardIcon src={Card_04} />
-          <MediaCardTitulo>Derecho minero</MediaCardTitulo>
+          <MediaCardTitulo>Derecho Minero</MediaCardTitulo>
           <SubtitulosContainer>
             <CardSubtitulo>
               Asesoría en todos los asuntos relativos en materias de minería.

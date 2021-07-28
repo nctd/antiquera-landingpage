@@ -43,6 +43,7 @@ export const MenuTitulo = styled.h1`
   color: #262222;
   font-size: 40px;
   text-align: justify;
+  hyphens: auto;
   @media screen and (max-width: 900px) {
     font-size: 30px;
     padding-top: 40px;
@@ -50,13 +51,13 @@ export const MenuTitulo = styled.h1`
   }
 
   @media screen and (max-width: 768px) {
-    font-size: 20px;
+    font-size: 25px;
     padding-top: 40px;
     text-align: justify;
   }
 
   @media screen and (max-width: 480px) {
-    font-size: 20px;
+    font-size: 25px;
     padding-top: 40px;
     text-align: justify;
   }
@@ -70,11 +71,11 @@ export const MenuSubtitulo = styled.p`
   font-weight: bolder;
 
   @media screen and (max-width: 768px) {
-    font-size: 15px;
+    font-size: 18px;
     text-align: justify;
   }
   @media screen and (max-width: 480px) {
-    font-size: 15px;
+    font-size: 18px;
     text-align: justify;
   }
 `;

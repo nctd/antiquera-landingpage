@@ -37,8 +37,8 @@ const AboutUs = () => {
             <br />
             Trabajamos para personas naturales y para las empresas, pyme,
             microempresas y cualquier otras personas sujetas de crédito, para
-            que logren desarrollar sus activadas productivas y proyectos. Sin
-            prejuicio, de guiar el buen término de su empresa.
+            que logren desarrollar sus actividades productivas y proyectos. Sin
+            perjuicio, de guiar el buen término de su empresa.
             <br />
             <br />
             Sin embargo, nos hacemos cargo de otras áreas del derecho de acuerdo

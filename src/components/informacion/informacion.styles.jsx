@@ -8,6 +8,7 @@ export const InfoContainer = styled.div`
   align-items: center;
 
   @media screen and (max-width: 768px) {
+    margin-top: 200px;
     height: 100%;
   }
 
@@ -44,13 +45,13 @@ export const InfoTitulo = styled.h1`
   text-align: center;
   @media screen and (max-width: 768px) {
     margin-top: 20px;
-    font-size: 2rem;
+    font-size: 25px;
     margin-bottom: 10px;
   }
 
   @media screen and (max-width: 480px) {
     margin-top: 20px;
-    font-size: 2rem;
+    font-size: 25px;
     margin-bottom: 10px;
   }
 `;
@@ -91,6 +92,7 @@ export const CardTitulo = styled.h2`
   text-align: center;
   display: inline-block;
   padding-bottom: 30px;
+  font-weight: bolder;
 `;
 
 export const CardSubtitulo = styled.p`

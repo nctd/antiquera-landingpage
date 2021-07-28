@@ -33,7 +33,7 @@ const Equipo = () => {
 
         <EquipoColumn>
           <EquipoImagen central src={Card_03} />
-          <ImagenTitulo>Jorge Cortes Monroy</ImagenTitulo>
+          <ImagenTitulo>Jorge Cortes-Monroy de la Fuente</ImagenTitulo>
           <ImagenCargo>Abogado</ImagenCargo>
         </EquipoColumn>
 

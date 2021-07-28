@@ -21,6 +21,7 @@ import {
   FormH1,
   FormLabel,
   FormInput,
+  FormTextBox,
   FormButton,
   CorreoNav,
 } from "./correo.styles";
@@ -87,6 +88,8 @@ const Correo = () => {
               <FormInput required type="text" name="nombre" />
               <FormLabel htmlFor="for">Telefono</FormLabel>
               <FormInput required type="text" name="telefono" />
+              <FormLabel htmlFor="for">Asunto</FormLabel>
+              <FormTextBox required type="text" name="asunto" />
 
               <FormButton type="submit">Enviar</FormButton>
             </Form>
